@@ -1,6 +1,6 @@
-if python -c 'import h5py'
+if python -c 'import pypmc'
 then
 	pytest
 else
-	echo "skipping testing because h5py installation is broken"
+	echo "skipping testing because pypmc installation is broken"
 fi
